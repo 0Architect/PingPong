@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <img src="img.jpg">
+        </div>
+        <div>
+            <p>Ping pong score keeper</p>
+        </div>
+        <div>
+            <div>
+                <div><span id="player1">0</span> to <span id="player2">0</span></div>    
+                <div>Use the buttons below to keep score.</div>
+                <div>
+                    <label for="numberSelector">Playing To: </label>
+                    <input type="number" id = "numberSelector" name="numberSelector" min = '1 ' max = '100' value="5">
+                </div>
+            </div>
+            <div>
+                <button id="player1btn" class="hover">+1 Player One</button>
+                <button id="player2btn"class="hover">+1 Player Two</button>
+                <button id="player3btn"class="hover">Reset</button>
+            </div>
+        </div>
+    </main>
+    <script src="App.js"></script>
+</body>
+</html>
